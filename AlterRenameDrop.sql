@@ -25,3 +25,5 @@ DROP COLUMN EDICAO;
 -- EXCLUIR TABELA
 DROP TABLE LIVRO;
 
+-- renomear tabela: sp_rename 'nome_atual', 'novo_nome'
+sp_rename 'LIVROS', 'LIVRO';
